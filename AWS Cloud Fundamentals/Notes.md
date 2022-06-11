@@ -1,102 +1,95 @@
 # Cloud Hosting
-![image]()
+![cloud-hosting](https://user-images.githubusercontent.com/66965591/173205622-65b003c1-a22c-4663-8929-31656e292a30.png)
 
 # AWS History
-![image]()
+![aws-history](https://user-images.githubusercontent.com/66965591/173205630-562a9bba-de4c-44b4-84be-764c9f9d88f4.png)
 
 # Cloud Service Provider
-![image]()
+![csp](https://user-images.githubusercontent.com/66965591/173205639-04084b85-d9de-48f5-a087-3e81433a6dec.png)
 
 # Magic Quadrant
-![image]()
+![mq](https://user-images.githubusercontent.com/66965591/173205642-26803c19-cff7-457a-ad66-a4367951464d.png)
 
 # CSP 4 Cores
-![image]()
+![4cores](https://user-images.githubusercontent.com/66965591/173205650-ddf19796-156d-4c8e-a594-81ebf3939460.png)
 
 # AWS Tech Overview
-![image]()
+![aws-tech-overview](https://user-images.githubusercontent.com/66965591/173205659-6e6f1397-2752-4a65-b08b-3486afb1d7c7.png)
 
 # Evolution Of Computing
 ## Dedicated
-![image]()
+![dedicated](https://user-images.githubusercontent.com/66965591/173205668-badbd8eb-d464-40b5-ae01-1255fec331e1.png)
 
 ## VMs
-![image]()
+![vms](https://user-images.githubusercontent.com/66965591/173205683-4919f6c3-eb55-45b3-afe6-ea55ae240920.png)
 
 ## Containers
-![image]()
+![containers](https://user-images.githubusercontent.com/66965591/173205688-0885f9e4-f1f7-49ba-8c99-23f25f6a3687.png)
 
 ## Functions
-![image]()
+![functions](https://user-images.githubusercontent.com/66965591/173205689-b2ef078e-e278-46a0-9431-a35cd548e2d2.png)
 
 # Types Of Cloud Computing
-![image]()
+![types-of-cc](https://user-images.githubusercontent.com/66965591/173205692-b4d441e3-629f-444f-9bde-dd38199e03fb.png)
 
-# Cloud Computing Deployment Models
-![image]()
+### Types Of Cloud Computing 
 
-# Use Cases
-![image]()
+![image](https://user-images.githubusercontent.com/66965591/173205712-16ab6897-bb1b-4256-916d-121f9676be62.png)
 
+### CC Deployment Models - - 11 June, 2022 - Day9
 
-### Types Of Cloud Computing - 11 June, 2022 - Day9
+![deployment1](https://user-images.githubusercontent.com/66965591/173201616-5830888a-99de-4f0b-941d-013a286f76b4.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3ef279f3-3b96-4d51-a814-27dadf489048/Untitled.png)
-
-### CC Deployment Models
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3661d200-6c31-4536-ac3c-84e4a07c2b27/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6fad6e70-8d98-46a3-be2e-ca2c8aa79c11/Untitled.png)
+![deployment2](https://user-images.githubusercontent.com/66965591/173201623-f31152e2-84c3-4f91-b037-7d19fb508822.png)
 
 ### USE CASES
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/28d3de6b-8e26-4642-8327-89cf8e232341/Untitled.png)
+![use-cases](https://user-images.githubusercontent.com/66965591/173201729-8084d56d-2b75-4835-860f-5dabafe63399.png)
 
 ### Innovation Waves
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/12d1473a-6b1b-4848-b9cc-f8d532cd5a22/Untitled.png)
+![innovation-waves](https://user-images.githubusercontent.com/66965591/173201737-db1502ae-41c8-48ad-aa13-a0874cf72eac.png)
 
 ### Burning Platform
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/661ae32a-5342-43a2-b46b-b2a6ffb292ec/Untitled.png)
+![burning-platform](https://user-images.githubusercontent.com/66965591/173201756-e065eef1-8a19-4f95-9615-af569f6a9b6f.png)
 
 ### Computing Power
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5d106020-5313-41b9-be78-af6bbc370076/Untitled.png)
+![computing-power](https://user-images.githubusercontent.com/66965591/173201762-9526e39f-b1cb-4c62-8547-5179d04982b4.png)
 
 ### Benefits Of Cloud
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6964b0d8-8f7d-43ae-8bfd-7e88a2279054/Untitled.png)
+![benefits-of-cloud](https://user-images.githubusercontent.com/66965591/173201782-0fcf7b26-e0eb-487b-bc8a-6a3a1c998974.png)
 
 ### Six Advantages Of Cloud
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5c465433-832e-4a27-9d68-edc16f028001/Untitled.png)
+![6advs](https://user-images.githubusercontent.com/66965591/173201791-96fbc545-494c-45ea-9def-bd6fb4d90f05.png)
 
 ### Seven Advantages Of Cloud
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/10dfab2b-8577-4cc8-88f7-454ff467bdcd/Untitled.png)
+![7advs](https://user-images.githubusercontent.com/66965591/173201868-c6b99cd0-b750-4bf7-9468-0bef01b5c9ca.png)
 
 ### Global Infrastructure
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4c8ba032-579a-4d18-b038-35ee16bce6af/Untitled.png)
+![global-infra](https://user-images.githubusercontent.com/66965591/173201819-bf80244c-cdb8-4d6f-939a-163f87ad3008.png)
 
 ### Regions
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bb873f2b-ad79-4294-9f14-6035988b70f4/Untitled.png)
+![regions](https://user-images.githubusercontent.com/66965591/173201872-05977f94-df98-49cb-a7c5-7f078f36fe6b.png)
 
 ### Regional vs Global Services
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d81c2164-dfe9-452c-8fd3-f374240aad83/Untitled.png)
+![regional-global-services](https://user-images.githubusercontent.com/66965591/173201880-59a05217-72f8-4d25-8ed1-9666313b3b29.png)
 
 ### Availability Zones
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f7d94ab3-6036-4916-ac30-f15242437566/Untitled.png)
+![azs1](https://user-images.githubusercontent.com/66965591/173201884-562a3726-6c68-4ff5-9609-6725261d35ae.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/02d477cd-51ca-409f-ad8c-74ef79ae6eb1/Untitled.png)
+![azs2](https://user-images.githubusercontent.com/66965591/173201892-96c86eb0-5cbe-4efc-bf3d-ac7a5f7a1bfc.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/89d7aaad-3b96-4554-be9d-524dcba4b348/Untitled.png)
+![image](https://user-images.githubusercontent.com/66965591/173201901-1607550f-53bb-4b55-97a5-8c112a04ef9e.png)
 
 ### Fault Tolerance
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a24de13a-583c-447e-a5fd-4b839c9c444a/Untitled.png)
+![fault-tolerance](https://user-images.githubusercontent.com/66965591/173201907-31e8c20c-7e20-4188-b219-22e6153b6b8e.png)
