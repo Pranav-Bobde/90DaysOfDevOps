@@ -1,4 +1,4 @@
-# Basic Hierarchy
+# Basic Hierarchy - 10 June, 2022 - Day8
 1. IETF
     1. Internet Engineering Task Force
     2. A standards organisation for the Internet and is responsible for the technical standards that comprise the Internet protocol suite. It has no formal membership roster or requirements and all its participants are volunteersvoluntary Internet Standards
@@ -41,4 +41,4 @@
 2. IPv6 - 128 bits
 
 # Subnet Masks
-![](https://www.tutorialspoint.com/ipv4/images/class_a_subnets.jpg)
+![subnet-masks](https://www.tutorialspoint.com/ipv4/images/class_a_subnets.jpg)
