@@ -92,4 +92,53 @@
 
 ### Fault Tolerance
 
-![fault-tolerance](https://user-images.githubusercontent.com/66965591/173201907-31e8c20c-7e20-4188-b219-22e6153b6b8e.png)
+![fault-tolerance1](https://user-images.githubusercontent.com/66965591/173201907-31e8c20c-7e20-4188-b219-22e6153b6b8e.png)
+
+![fault-tolerance2](https://user-images.githubusercontent.com/66965591/173252203-5202db79-9bed-42b2-b0fb-a6bf991288c7.png)
+
+
+### AWS Global Network - June 12, 2022 - Day9
+
+![aws-global-network](https://user-images.githubusercontent.com/66965591/173252220-f0f9f382-404e-4c23-8147-6c5fce155e0a.png)
+
+### GI - Point Of Presence (POP)
+
+![POP1](https://user-images.githubusercontent.com/66965591/173252232-547934b4-ce90-40ea-8ccc-7be4fefdc740.png)
+
+![POP2](https://user-images.githubusercontent.com/66965591/173252235-a0ab3936-324c-4981-8e19-27fafa00d860.png)
+
+![POP3](https://user-images.githubusercontent.com/66965591/173252240-e830e285-9f67-4294-9a3a-3e9da7a9a6a5.png)
+
+
+# Autonomous System Number (ASN)
+
+- Def: A unique number identifying the routing domain of the routers
+- An autonomous system is a collection of networks under a common administrative domain
+- Basically a number specific to **organisation** given by the ISP
+- Range (1 - 65535)
+    - Public AS → 1 - 64512
+    - Private AS → 64513 - 65535
+- Protocols
+    - IGP (Interior Gateway Protocols) (Same ASN)
+        - RIP, OSPF, EIGRP, IGRP(No more used)
+    - EGP (Exterior Gateway Protocols) (Different ASNs)
+        - **BGP**
+- Types
+1. Private
+2. Public
+
+Example
+![pvt-public](https://user-images.githubusercontent.com/66965591/173252276-bacfc96d-f4e8-450d-b570-70c76a0e89bf.png)
+- Within the same Organisation it has **65000** as a **private ASN**
+- But when communication outside the Org, the ISP will use it’s ASN (**1000** in the example) to identify as the **public ASN**
+
+# Other Terminologies
+- Transit: A service where a network operator allows the traffic to pass through their network to the rest of the Internet.
+- Peering: Can be looked as an agreement between two networks to connect and exchange traffic directly without having to pay for mutual benefits.
+ 
+#Note: It’s very important that this agreement between the two providers is enforced.
+i.e. A should not be able to route traffic through B to the rest of the internet.
+As they’d effectively be stealing B’s upstream bandwidth.
+So, we use **BGP** to implement the agreed policy.
+
+
