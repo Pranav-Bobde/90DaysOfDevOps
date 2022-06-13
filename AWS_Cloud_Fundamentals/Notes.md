@@ -142,3 +142,22 @@ As they’d effectively be stealing B’s upstream bandwidth.
 So, we use **BGP** to implement the agreed policy.
 
 
+### AWS Direct Connect - 13 June, 2022 - Day10
+
+![direct-connect](https://user-images.githubusercontent.com/66965591/173421937-20b8f28b-7b3c-4fd2-a7f9-1d5eb9a376aa.png)
+
+### AWS Direct Connect Locations
+
+![direct-connect-locations](https://user-images.githubusercontent.com/66965591/173421972-b9c65038-e9e5-464e-aa40-886ba17937e7.png)
+
+### Local Zones
+
+![local-zones](https://user-images.githubusercontent.com/66965591/173422007-98c84f50-2cc1-4088-85d0-a82c567d5c76.png)
+
+### Wavelength Zones
+
+![wavelength-zones](https://user-images.githubusercontent.com/66965591/173422023-caf1cf44-5a6b-4426-bd6d-1d6c4f1f6912.png)
+
+### Data Residency
+
+![data-residency](https://user-images.githubusercontent.com/66965591/173422049-c409d1e6-9d97-478c-9b58-7124b2f3196f.png)
