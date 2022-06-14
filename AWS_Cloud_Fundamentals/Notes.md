@@ -190,7 +190,9 @@ So, we use **BGP** to implement the agreed policy.
 
 ### Cloud Architecture Terminologies
 
-![arch-terminologies](https://user-images.githubusercontent.com/66965591/173660942-de0ade7a-707a-4fb0-b8a2-20cd9424ee05.png)
+![arch-terminologies1](https://user-images.githubusercontent.com/66965591/173660942-de0ade7a-707a-4fb0-b8a2-20cd9424ee05.png)
+
+![arch-terminologies2](https://user-images.githubusercontent.com/66965591/173678038-08911f33-f67d-4454-b327-df34390093f8.png)
 
 Cloud Architecture - FADES
 
