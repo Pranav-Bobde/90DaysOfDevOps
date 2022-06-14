@@ -162,7 +162,7 @@ So, we use **BGP** to implement the agreed policy.
 
 ![data-residency](https://user-images.githubusercontent.com/66965591/173422049-c409d1e6-9d97-478c-9b58-7124b2f3196f.png)
 
-### AWS For Government - 13 June, 2022 - Day 11
+### AWS For Government - 14 June, 2022 - Day 11
 
 ![aws-for-gov](https://user-images.githubusercontent.com/66965591/173660457-a7d344b0-4d1f-4e61-899f-45de2d0dc58b.png)
 
