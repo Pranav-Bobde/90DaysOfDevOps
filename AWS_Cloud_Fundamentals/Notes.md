@@ -161,3 +161,53 @@ So, we use **BGP** to implement the agreed policy.
 ### Data Residency
 
 ![data-residency](https://user-images.githubusercontent.com/66965591/173422049-c409d1e6-9d97-478c-9b58-7124b2f3196f.png)
+
+### AWS For Government - 13 June, 2022 - Day 11
+
+![aws-for-gov](https://user-images.githubusercontent.com/66965591/173660457-a7d344b0-4d1f-4e61-899f-45de2d0dc58b.png)
+
+### Gov Cloud (US)
+
+![gov-cloud](https://user-images.githubusercontent.com/66965591/173660486-7fdd6ea2-5bd4-47ff-b2c3-e040b4354b6c.png)
+
+### AWS In Chine
+
+![aws-in-china](https://user-images.githubusercontent.com/66965591/173660590-7090a28d-c56a-42a4-8ecd-b1bcb0b35f39.png)
+
+### Sustainabililty
+
+![sustainability](https://user-images.githubusercontent.com/66965591/173660608-40e8efee-094d-48dd-ab84-e5bbc8a4890c.png)
+
+### AWS Ground Stations
+
+![ground-stations](https://user-images.githubusercontent.com/66965591/173660672-4d2e28e5-5964-43f5-8e13-9d6028a9712e.png)
+
+### AWS Outposts
+
+![outposts1](https://user-images.githubusercontent.com/66965591/173660816-21f31851-0849-4f76-b707-b6c75263038a.png)
+
+![outposts2](https://user-images.githubusercontent.com/66965591/173660845-c14d26aa-c4b6-47ce-a1e0-c0a9f4662c47.png)
+
+### Cloud Architecture Terminologies
+
+![arch-terminologies](https://user-images.githubusercontent.com/66965591/173660942-de0ade7a-707a-4fb0-b8a2-20cd9424ee05.png)
+
+Cloud Architecture - FADES
+
+Solutions Architecture - CS
+
+### High Availability
+
+![availability](https://user-images.githubusercontent.com/66965591/173661090-493a928c-3aff-4b90-8339-11ecf62aa3da.png)
+
+### High Scalability
+
+![scalability](https://user-images.githubusercontent.com/66965591/173661112-b222a17e-e655-4aab-98ba-97c828705c47.png)
+
+### High Elasticity
+
+![elasticity](https://user-images.githubusercontent.com/66965591/173661200-d8569b67-205f-46c8-a172-e4e4f63d4ba9.png)
+
+### High Fault Tolerant
+
+![fault-tolerant](https://user-images.githubusercontent.com/66965591/173661236-cfb11ac6-6267-4dc9-96e4-45ea6656cf2c.png)
