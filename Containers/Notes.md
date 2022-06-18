@@ -32,6 +32,8 @@ Let’s say you have a compute host,
     - VMware Workstation Player - Linux
     - VirtualBox - Linux, Windows, Mac
 
+# 18 June, 2022 - Day 14
+
 ## VM vs Containers
 
  **" VM is isolation of machines, while Containers is isolation of processes ”**
