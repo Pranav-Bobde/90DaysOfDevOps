@@ -76,3 +76,48 @@ Some Basic Important Components Of Container (Docker As Ref)
                 1. Either you create a volume & mount it on the container or
                 2. You’ll push it out on a network socket to somewhere
     3. Perform operations like push, pull, run, commit, etc using the exposed API by the daemon.
+
+# 18 June, 2022 - Day 14
+
+Docker-Compose
+
+- instead of writing those huge commands for each instance, you can do it all in just one
+- You need to create a docker-compose.yml file
+    - It contains all the different configs for all your containers
+    - !Note: while building it only checks if the image with the naming convention already exits or not. If it does → it skips the build. 
+    So, if you ever change the Dockerfile you will need to tell docker-compose to rebuild the image
+- **!Note:** it’s docker-compose not docker compose
+- Commands
+    - docker-compose up -d
+        - run in detach mode
+    - docker-compose up -d —build
+        - to force build the image
+    - docker-compose down -v
+        - to clear the associated volumes it creates with the instances
+
+### Setup Dev & Prod Environments
+
+- There are 2 ways to do so
+    1. Create separate Dockerfiles for each
+    2. Use the same Dockerfile
+
+To do it in the same file
+
+- You will need 3 docker-compose files
+    - one as base
+        - contains configs which are common to both
+    - one for dev
+        - configs specific to dev environment
+    - one for prod
+        - configs specific to prod environment
+- To run in dev env
+    - docker-compose -f <base-docker-compose-file> -f <prod-docker-compose-file>up -v —build
+- To run in prod env
+    - docker-compose -f <base-docker-compose-file> -f <dev-docker-compose-file> up -v —build
+    - docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -v —build
+
+### **!Note:** We’ll need to add an if statement in the Dockerfile like this
+
+- So that it does not install the dev dependancies in the prod environment
+    ![image](https://user-images.githubusercontent.com/66965591/174500198-595ff19c-5e6b-45ca-ae04-9ecf31e37b07.png)
+
