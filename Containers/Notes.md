@@ -77,7 +77,7 @@ Some Basic Important Components Of Container (Docker As Ref)
                 2. You’ll push it out on a network socket to somewhere
     3. Perform operations like push, pull, run, commit, etc using the exposed API by the daemon.
 
-# 18 June, 2022 - Day 14
+# 19 June, 2022 - Day 15
 
 Docker-Compose
 
