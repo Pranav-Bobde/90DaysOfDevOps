@@ -155,7 +155,11 @@ volumes:
     - to see the logs once
 - docker logs <container-name> - f
     - to stay in the logging console
-    
+
+### Network
+- docker inspect <instance-name>
+- docker network ls
+- docker network instpect <instance-name>
 
 ### IP Address
 - Docker-Compose creates a custom network just for your app
