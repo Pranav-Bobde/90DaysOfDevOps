@@ -121,3 +121,43 @@ To do it in the same file
 - So that it does not install the dev dependancies in the prod environment
     ![image](https://user-images.githubusercontent.com/66965591/174500198-595ff19c-5e6b-45ca-ae04-9ecf31e37b07.png)
 
+# 20 June, 2022 - Day 16
+
+Running another service (container) - mongo
+
+Volumes
+- To persist data we’ll be needing volume
+- But if we create an anonymous volume as usual we may end up deleting it (-v tag) while shutting down the containers as they are anonymous
+- So we need to name our anonymous volume
+- So, to name an anonymous volume we just need to prepend the name to the path
+
+```yaml
+mongo:
+    image: mongo
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=pranav
+      - MONGO_INITDB_ROOT_PASSWORD=pass
+    volumes:
+      - mongo-db:/data/db      #<vol-name>:path (named-anonymous-volume)
+#Declaring Names
+volumes:
+  mongo-db:
+```
+
+- But you see our name (mongo-db) can potentially be used by any other service too
+- Therefore, we’ll need to **declare** the names
+
+### **!TIP**: To quickly connect to the mongo client run
+→ docker exec -it <container-name> mongo -u <username> -p <password>
+
+### Logs
+- docker logs <container-name>
+    - to see the logs once
+- docker logs <container-name> - f
+    - to stay in the logging console
+    
+
+### IP Address
+- Docker-Compose creates a custom network just for your app
+- When we have a **Custom network** we have **DNS**
+- Thus, You can connect to another container just by using the **service name**
