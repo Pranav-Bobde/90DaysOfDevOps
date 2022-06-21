@@ -165,3 +165,35 @@ volumes:
 - Docker-Compose creates a custom network just for your app
 - When we have a **Custom network** we have **DNS**
 - Thus, You can connect to another container just by using the **service name**
+
+# 21 June, 2022 - Day 17
+
+## Setting up Global Environment Variables File
+- Just a good practise to have all your env variables in a single place
+
+**!IMP**: There might me cases where the order of instantiation matters.
+Add depends_on prop to the service which needs a service to be available before starting itself
+
+```yaml
+version: "3"
+services:
+  node-app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+    depends_on:
+      - mongo   #node-app depends on mongo (requires it to be available first)
+
+  mongo:
+    image: mongo
+    volumes:
+      - mongo-db:/data/db
+
+volumes:
+  mongo-db:
+```
+
+**!NOTE**: It can happen that the container has initialised but the application is yet to start. In such cases you need to addd checks in your app’s code.
+In our case we have mongoose which by default tries to connect for 30s.
