@@ -203,3 +203,7 @@ In our case we have mongoose which by default tries to connect for 30s.
 Setup authentication, caching, redis, sessions via express-session...
 
 Link To Work: [Day18](https://github.com/Pranav-Bobde/docker-node-app/commit/8950b17f967e087abe573793904d58e2e42f5b47)
+
+# 23 June, 2022 - Day 19
+Not able to login. Thowing error. Not even getting any logs, or something.
+Trying to to resolve the issue.
