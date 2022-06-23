@@ -197,3 +197,9 @@ volumes:
 
 **!NOTE**: It can happen that the container has initialised but the application is yet to start. In such cases you need to addd checks in your app’s code.
 In our case we have mongoose which by default tries to connect for 30s.
+
+# 22 June, 2022 - Day 18
+
+Setup authentication, caching, redis, sessions via express-session...
+
+Link To Work: [Day18](https://github.com/Pranav-Bobde/docker-node-app/commit/8950b17f967e087abe573793904d58e2e42f5b47)
