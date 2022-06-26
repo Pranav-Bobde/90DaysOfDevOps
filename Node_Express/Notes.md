@@ -1,4 +1,4 @@
-# 25 June 2022 - Day 13
+# 25 June 2022 - Day 21
 
 - Run-Time Environment for JS
 - Built on Chrome’s V8 JS Engine
@@ -35,3 +35,25 @@ Node wraps it in the function.
 `npm test`, `npm start`, `npm restart`, and `npm stop` are all aliases for `npm run xxx.`
 
 For all other `scripts` you define, you need to use the `npm run xxx` syntax.
+
+# 26 June 2022 - Day 22
+
+Bigger Picture
+
+![image](https://user-images.githubusercontent.com/66965591/175835464-ebb5fd6d-341b-40f0-928a-a7fe5212d011.png)
+
+- So in here we have
+- V8
+    - JS Runtime
+- WebAPIs
+    - DOM, ajax, setTimeout, etc
+- Callback Queue
+    - callback functions queue
+- Even Loop
+    - when stack’s empty pushes the task from the callback queue to the stack
+
+setTimeout is an API provided by the browser. It’s not in the V8. 
+
+### !FUN-FACT
+
+setTimeout() doesn’t guarantee that ur code will run in the given time but after at least the given time.
