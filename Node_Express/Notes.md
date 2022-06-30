@@ -199,3 +199,13 @@ Event Loop (Oversimplification)
     - N ol the other remaining is handled in handled by the kernel async in the UNIX
 - Windows (reverse story)
     - Child Process , TTY & some TCP server (edge cases) - Are all handles using threads - As windows doesn’t provide those primitives
+
+
+# 30 June 2022 - Day 26
+
+HTTP STATUS CODES
+1. [Informational responses](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#information_responses) (`100`–`199`)
+2. [Successful responses](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses) (`200`–`299`)
+3. [Redirection messages](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#redirection_messages) (`300`–`399`)
+4. [Client error responses](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#client_error_responses) (`400`–`499`)
+5. [Server error responses](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#server_error_responses) (`500`–`599`)
