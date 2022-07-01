@@ -209,3 +209,11 @@ HTTP STATUS CODES
 3. [Redirection messages](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#redirection_messages) (`300`–`399`)
 4. [Client error responses](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#client_error_responses) (`400`–`499`)
 5. [Server error responses](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#server_error_responses) (`500`–`599`)
+
+# 1 July 2022 - Day 27
+Today's Progress:
+- Express basic setup
+- route params
+- static files/assets
+- json/stringify
+![image](https://user-images.githubusercontent.com/66965591/176964668-775c78ef-43f6-49f8-b108-6aa78259d9dd.png)
