@@ -217,3 +217,9 @@ Today's Progress:
 - static files/assets
 - json/stringify
 ![image](https://user-images.githubusercontent.com/66965591/176964668-775c78ef-43f6-49f8-b108-6aa78259d9dd.png)
+
+
+# 2 July 2022 - Day 28
+Today's Progress:
+- Express Middleware (app.use())
+<img width="533" alt="image" src="https://user-images.githubusercontent.com/66965591/177013236-b01b48dd-03c7-4615-bad3-89471de8a70d.png">
