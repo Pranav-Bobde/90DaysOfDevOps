@@ -223,3 +223,10 @@ Today's Progress:
 Today's Progress:
 - Express Middleware (app.use())
 <img width="533" alt="image" src="https://user-images.githubusercontent.com/66965591/177013236-b01b48dd-03c7-4615-bad3-89471de8a70d.png">
+
+# 3 July 2022 - Day 29
+Today's Progress:
+- Express Middleware
+- Handling, Parsing Post Requests
+![image](https://user-images.githubusercontent.com/66965591/177057403-5c4890fd-1b6d-417c-b195-b26f0b9a25d0.png)
+
