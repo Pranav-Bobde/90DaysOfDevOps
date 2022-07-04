@@ -230,3 +230,9 @@ Today's Progress:
 - Handling, Parsing Post Requests
 ![image](https://user-images.githubusercontent.com/66965591/177057403-5c4890fd-1b6d-417c-b195-b26f0b9a25d0.png)
 
+# 4 July 2022 - Day 30
+Today's Progress:
+- Express Router
+- Routes, Controller
+
+Link To Work: [Complete Express Module](https://github.com/Pranav-Bobde/node-express-hands-on/commit/70f1aa412ee7a5d1e05830945a3b6ad4bddffe95)
