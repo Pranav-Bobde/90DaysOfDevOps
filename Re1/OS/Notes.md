@@ -1,4 +1,4 @@
-# Day 1 - 29 July, 2022
+# Day 1 - 28 July, 2022
 
 ### Operating System
 - made up of kernel + application/user layer
@@ -14,7 +14,7 @@ Kernel
 - MacOS → darwin
 - POSIX (Portable Operating System Interface) - Standard Def to be maintained by the UNIX based OSs
 
-# Day 2 - 30 July, 2022
+# Day 2 - 29 July, 2022
 
 ### Virtualisation
 Physical Machine, VM, Containers
@@ -36,6 +36,52 @@ Physical Machine, VM, Containers
   - Mainly used by consumers
   - Ex. Oracle Virtual Box, VMWare Workstation, QEMU, etc
 
+# Day 3 - 30 July, 2022
 
+### Linux
+
+File System
+
+/home - home directory of all non-root users (Available: User)
+
+/root - home directory of all root user
+
+/bin - executable binary files of most essential user commands 
+
+/sbin - executable binary files of system commands (Access: Superuser)
+
+/lib - essential shared libraries that the binaries from /bin & /sbin use
+
+/usr - supposed to be for user (due to storage limitations in the past, split in root bin folders and user binary folders was done)
+
+- usually the commands are run from here only
+- usually it has more binaries than the root level binaries (/bin, /sbin)
+
+/usr/local - user applications are installed here
+
+/opt - 3rd party apps which install in one directory (don’t split into bins, libs, etc)
+
+/boot - files required for booting
+
+/etc - configurations for system-wide applications
+
+/dev - connected devices 
+
+/var - log, cache files
+
+/tmp - temporary resources required for some processes
+
+/media - External devices (also referenced in /dev)
+
+/mnt - for manual mounting
+
+Commands
+- Info about OS
+    - uname -a
+    - cat /etc/os-release
+- Info about CPU
+    - lscpu
+- Info about Mem
+    - lsmem
 
 
