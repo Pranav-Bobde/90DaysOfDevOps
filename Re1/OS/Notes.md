@@ -95,7 +95,7 @@ Commands
 Snap
 - It provides self contained packages (i.e.larger size)
     - Package includes all its dependencies
-- Supports universal linux packages
+- Supports universal linux packages (.snap)
 - Provides auto-updates
 - snapcraft
   - command & framework used to build & publish snaps
