@@ -101,7 +101,7 @@ Snap
   - command & framework used to build & publish snaps
 
 Apt
-- Dependecies are shared (i.e. smaller size)
+- Dependencies are shared (i.e. smaller size)
 - Linux distro specific packages (.deb)
 - Manual Updates
 
