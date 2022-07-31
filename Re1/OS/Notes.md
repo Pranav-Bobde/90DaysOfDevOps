@@ -84,4 +84,42 @@ Commands
 - Info about Mem
     - lsmem
 
+# Day 4 - 31 July, 2022
 
+### Package Manager
+1. apt or apt-get
+2. Software Center
+3. snap 
+
+### Snap vs Apt
+Snap
+- It provides self contained packages (i.e.larger size)
+    - Package includes all its dependencies
+- Supports universal linux packages
+- Provides auto-updates
+- snapcraft
+  - command & framework used to build & publish snaps
+
+Apt
+- Dependecies are shared (i.e. smaller size)
+- Linux distro specific packages (.deb)
+- Manual Updates
+
+Cons (snap):
+- If multiple apps have same dependencies, it will be downloaded multiple times
+    - Thus, you shuould go with apt whenever possible
+
+### PPA
+- Personal Package Archive
+- Provided by the communities
+- Anybody can create & share their repo to distribute their software
+
+
+### Types Of Package Managers
+Can be broadly classified in 2 types based on the 2 major distros
+- **Debian Based**
+  - apt
+  - apt-get
+
+- **Red Hat Based** 
+  - yum
