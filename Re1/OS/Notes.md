@@ -123,3 +123,56 @@ Can be broadly classified in 2 types based on the 2 major distros
 
 - **Red Hat Based** 
   - yum
+
+# Day 5 - 1 August, 2022
+
+### Users & Permissions
+
+#### Access Control Files
+
+- /etc/passwd - details of all the users
+- /etc/shadow - password of the user
+- /etc/group - details of all the groups
+
+When you do cat /etc/passwd, you can see format like this
+
+```
+debian:x:1000:1000:Debian,,,:/home/debian:/bin/bash
+```
+
+USERNAME : PASSWORD : UID : GID : GECOS : HOMEDIR : SHELL
+
+x here is just a placeholder for the password. And the password is actually stored in encrypted form at /etc/shadow
+
+, , , - are just the placeholder for any extra info about the user
+
+Commands
+- sudo adduser newuser1
+- sudo passwd newuser1
+- su - newuser1
+- sudo groupadd newusersgroup
+- sudo usermod -g newusersgroup newuser1
+- sudo delgroup newuser1
+- sudo usermode -G admin, newusersgroup newuser1
+- sudo usermode -aG admin, newusersgroup newuser1
+- groups
+- sudo useradd -G newusersgroup newuser2
+- sudo gpasswd -d newuser2 newusersgroup
+
+#### Users & Groups
+Commands 
+- adduser or useradd
+- addgroup or groupadd
+- delUser or userdel
+- delgroup or groupdel
+
+Former is:
+
+- more interactive & user friendly
+- Use-case: manually executing tasks
+
+Latter is:
+
+- provide all details as params
+- low-level utilities
+- Use-case: when writing scripts
