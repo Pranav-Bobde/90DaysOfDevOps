@@ -167,7 +167,6 @@ Commands
 - delgroup or groupdel
 
 Former is:
-
 - more interactive & user friendly
 - Use-case: manually executing tasks
 
@@ -176,3 +175,12 @@ Latter is:
 - provide all details as params
 - low-level utilities
 - Use-case: when writing scripts
+
+# Day 6 - 2 August, 2022
+
+### Ownership & Permissions
+Commands
+- sudo chown admin text.txt
+- sudo chown newuser1:newUsers text.txt
+- sudo chgrp newusers text.txt
+
