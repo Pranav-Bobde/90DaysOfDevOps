@@ -318,3 +318,8 @@ For Example: drwxrw-r-x
         - ![image](https://user-images.githubusercontent.com/66965591/182857338-78065776-9a32-4fb5-8a94-ce6441904ec5.png)
         - After:
         - ![image](https://user-images.githubusercontent.com/66965591/182857305-8e3559dd-efd8-4d8b-a882-78f8041bdf35.png)
+
+# Day 7 - 4 August, 2022
+  Revised previous content and prepared content (notes).
+ 
+ 
