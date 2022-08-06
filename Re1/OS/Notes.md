@@ -323,6 +323,39 @@ For Example: drwxrw-r-x
 Revised previous content and prepared content (notes).
   
 # Day 8 - 5 August, 2022
-Pipelining, redirecting outputs in linux.
+### Pipeline / Redirecting
+- history | less
+    - less displays content in pages
+- history | grep sudo
+    - filter content with sudo in them
+- history | grep “sudo chmod”
+    - filter content with “sudo chmod" in them
+- history | grep sudo > redirect.txt
+    - stores all the content from the prev commmands in the file
+- history | grep sudo >> redirect.txt
+    - appends the content
+
+# Day 9 - 6 August, 2022
+
+### Bash Scripting
+Shell → Interpreter (convert the cli commands into to instructions for kernel)
+
+ Various Implementaions (shells)
+
+- Bourne Shell (sh)
+    - /bin/sh
+- Bash (Bourne Again Shell)
+    - /bin/bash
+    - more improved version of sh
+- zsh
+    - /bin/zsh
+    - extended bourne shell with many improvements
+
+### Scripts
+- .sh files
+- shebang - First line of the shell script
+    - #!/bin/bash
+        - specify the shell based upon which the scripting is done
+        - i.e. we are using bash syntax
 
  
