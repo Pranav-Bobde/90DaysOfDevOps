@@ -358,4 +358,28 @@ Shell → Interpreter (convert the cli commands into to instructions for kernel)
         - specify the shell based upon which the scripting is done
         - i.e. we are using bash syntax
 
- 
+# Day 10 - 7 August, 2022
+```bash #!/bin/bash
+echo "script start"
+
+file_name=config.yaml
+if [ -d "config" ]
+then
+	echo "reading config dir"
+else
+	echo "config dir not found"
+fi
+
+user_group=xx
+if [ $user_group == "user" ]
+then
+	echo "configure the server"
+elif [ $user_group == "admin" ]
+then
+	echo "administer the server"
+else
+	echo "Not permitted to configure server"
+fi
+
+echo "using file $file_name to configure server"
+```
