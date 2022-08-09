@@ -385,3 +385,58 @@ echo "using file $file_name to configure server"
 ```
 # Day 11 - 8 August, 2022
 Revised 
+
+# Day 12 - 9 August, 2022
+
+### Parameters
+
+- $1, $2…
+
+### Store command results in a var
+
+- config_files=$(ls “$config_dir”)
+
+### Reading input from user
+
+```bash
+read -p "Enter pwd: " user_pwd
+echo "Pwd: $user_pwd"
+```
+
+- all params & their count
+    
+    ```bash
+    echo "all params: $*"
+    echo "no. of params: $#"
+    ```
+    
+
+### Note: $n1 + $n2 → considered as string concat.
+### For Arithmatic expressions ⇒ (($n1 + $n2))
+
+### Loops
+
+1. while
+    
+    ```bash
+    while true
+    	do
+    		read -p "enter a number" num
+    		if [ "$num" == "quit" ]
+    		then
+    			break
+    		fi
+    	echo "num: $num"
+    	done
+    ```
+    
+2. for
+    
+    ```bash
+    for param in $*
+    	do
+    		echo $param
+    	done
+    ```
+
+
