@@ -439,4 +439,70 @@ echo "Pwd: $user_pwd"
     	done
     ```
 
+# Day 13 - 10 August, 2022
 
+### Functions
+
+```bash
+#!/bin/bash
+
+# no params
+function do_something{
+	echo "doing something"
+}
+
+do_something
+
+##################
+
+# with params
+function do_this() {
+	echo "doing $1"
+}
+
+do_this "a thing"
+
+#creating file with given file name as parameter and adding execute permission based on second parameter
+function create_file() {
+	file_name=$1
+	touch $file_name
+	echo "file $file_name created"
+	if[ "$is_shell_script" = $2 ]
+	then
+		chmod u+x $file_name
+		echo "added execute permission"
+	fi
+}
+
+create_file test.sh true
+
+function sum(){
+	total=$(($1+$2))
+	return $total
+}
+sum 2 10
+result=$? #returns the result of the previous command
+```
+
+### Environment Variables
+
+#NOTE: env vars set in a CLI session are only avaiable in that session.
+
+- Add an environment variable
+    - export DB_USER=dbuser
+- Remove an environment variable
+    - unset DB_USER
+- /etc/environment
+    - has a PATH variable
+    - which is system-wide available
+    - list of directories to executable files or binaries
+- you can add your custom program to the PATH’s list
+    - for your user
+        - by going to your .bashrc file
+        - then add the line
+        
+        ```bash
+        PATH=$PATH:/home/user/my_custom_program
+        ```
+        
+        - now you can call your custom script from anywhere
