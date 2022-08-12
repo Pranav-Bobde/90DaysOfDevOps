@@ -506,3 +506,63 @@ result=$? #returns the result of the previous command
         ```
         
         - now you can call your custom script from anywhere
+
+# Day 14 - 11 August, 2022
+Switch → connects devices in a LAN
+
+Router → connects with outside the LAN (or outside our network)
+
+Firewalls → system that prevents unauthorised access from entering a private network
+
+DNS → mapping of IPA to Names
+
+### Root Domains
+
+![image](https://user-images.githubusercontent.com/66965591/184267288-ff7377a1-2615-454d-a513-5ae874f22889.png)
+
+### Top Level Domains
+6 Original TLDs
+- .edu
+- .com
+- .org
+- .mil
+- .net
+- .gov
+
+Others → Geographical Domains that were added later
+
+- .ca
+- .us
+- .in
+- .at
+- .uk
+- ....
+
+### Who manages all these domain names?
+
+⇒ Internet Corporation for Assigned Names and Numbers (**ICANN**)
+- Manages the TLD development & architecture of the internet domain space
+- Authorises Domain Names Registrars, to domains names maybe registered & reassigned
+
+### DNS Working
+- Every system has a DNS client preinstalled
+- OS makes query req to the DNS client
+- that makes req to the recursive name server
+    - typically operated by your ISP
+- if still not found, it’ll go to one of the 13 route servers which manage req for TLDs
+    - they are available/placed all around the world
+        - idk but here is the addr of .com s domain server which you can ask
+    - then the recurent servers asks the .com (TLD server) if they got the IPA
+        - idk here is the Authorative Name Servers of the .com domain
+    - now this time the Name Server does know about the IPA and responds it back
+
+### Commands
+- ifconfig
+    - IPAs of all the connected devices, gateways, subnets, etc
+- netstat
+    - shows the active connections on your machine and their details
+- ps aux
+    - details of current running processes
+- nslookup
+    - IPA of any domain name
+    - also gives the IPA of the DNS server your system uses
