@@ -566,3 +566,38 @@ Others → Geographical Domains that were added later
 - nslookup
     - IPA of any domain name
     - also gives the IPA of the DNS server your system uses
+
+
+# Day 14 - 11 August, 2022
+
+SSH → Secure Shell or Secure Sockey Shell
+
+- A network protocol that gives users, particularly system administrators, a secure way to access a computer over an unsecured network.
+
+Commands
+
+- Generate Key-Pair
+
+```
+#rsa -> encryption method
+ssh-keygen -t rsa
+```
+
+- ssh
+    
+    ```
+    ssh root@{REMOTE_IP_ADDRESS}
+    
+    // it's the same as 
+    ssh -i ./ssh/id_rsa root@10.11.12.13
+    // it's the default location where it checks for the private key
+    // for any other location you'd need to specify it like this
+    ```
+    
+- copy files to a remote server
+    
+    ```
+    scp -i ./ssh/id_rsa test.sh root@10.11.12.13:/root
+    //scp -i {PRIVATE_KEY_LOC} {FILE_LOC} {USERNAME}@{REMOTE_IP_ADDRESS}:{DEST_LOC}}
+    ```
+
