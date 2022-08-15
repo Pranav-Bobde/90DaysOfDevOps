@@ -568,7 +568,7 @@ Others → Geographical Domains that were added later
     - also gives the IPA of the DNS server your system uses
 
 
-# Day 14 - 11 August, 2022
+# Day 15 - 12 August, 2022
 
 SSH → Secure Shell or Secure Sockey Shell
 
@@ -601,3 +601,35 @@ ssh-keygen -t rsa
     //scp -i {PRIVATE_KEY_LOC} {FILE_LOC} {USERNAME}@{REMOTE_IP_ADDRESS}:{DEST_LOC}}
     ```
 
+# Day 16 - 14 August, 2022
+### Basic
+- git status - Check Files Modified
+
+### Add
+- git add <file-name> 
+- git add .
+
+### Commit
+- git commit -m “commit message”
+- git commit -am “commit message”
+- git log
+
+### Push
+- git push origin main
+- git push -u origin main
+
+### Pull 
+- git pull origin main
+- git pull -u origin main
+- git pull -r (doesn’t create unneccessary merge commit while pushing)
+
+### Remote
+- git remote -v
+- git remote add <remote-name> <remote-url>
+
+### Branch
+- git branch
+- git checkout -b <branch-name>
+- git checkout <branch-name>
+- git branch -d <branch-name>
+	
