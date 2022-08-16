@@ -612,11 +612,13 @@ ssh-keygen -t rsa
 ### Commit
 - git commit -m “commit message”
 - git commit -am “commit message”
+- git commit —amend (adds the changes to the previous commit)
 - git log
 
 ### Push
 - git push origin main
 - git push -u origin main
+- git push —force (used when want to delete commits from the remote)
 
 ### Pull 
 - git pull origin main
@@ -632,4 +634,28 @@ ssh-keygen -t rsa
 - git checkout -b <branch-name>
 - git checkout <branch-name>
 - git branch -d <branch-name>
+
+# Day 17 - 15 August, 2022
+
+### Reset
+- git reset <file-name>
+- git reset HEAD~1
+- git reset —hard HEAD~1
+- git reset <commit-hash>
 	
+### Revert
+- git revert <commit-hash>
+- when want to undo commit changes in master branch
+    - creates a commit with the reverse changes of the commit-hash commit
+    - then you push it to the remote master
+    - #NOTE: you never git push —force in master branch
+
+### Merge
+- git merge <branch-name>
+	
+### Stash
+- git stash
+- git stash pop
+
+### Gitignore
+- git rm -r —cached .idea
