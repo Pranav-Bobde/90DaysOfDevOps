@@ -659,3 +659,53 @@ ssh-keygen -t rsa
 
 ### Gitignore
 - git rm -r —cached .idea
+	
+# Day 18 - 16 August, 2022
+### Building/Packaging
+
+Application ⇒ single package aka Artifact (Deploy on the server)
+
+Includes:
+
+- compiling
+- compress
+
+### Artifact Repository
+
+- storage for artifacts
+- eg. Nexus, JFrog Artifactory
+
+### File Type
+
+- depends on the language
+- Examples
+    - Java ⇒ JAR (Java Archive) or WAR
+        - includes all the code, dependencies
+        - Execute: java -jar <jar-file>
+    - Javascript ⇒ ZIP or TAR
+        - includes code, but NOT dependencies
+
+### Package Managers/Build Tools
+
+- JAVA
+    - Maven
+        - XML
+        - pom.xml
+        - Command: mvn package
+    - Gradle
+        - Groovy
+        - build.gradle
+        - Command: ./gradlew build
+- JAVASCRIPT
+    - NPM/YARN
+    - package.json
+    - Command: npm pack
+
+### Considering A React-Node App
+
+- the artifact for the front and the backend can be separate or common
+    - Frontend code needs to be transpiled
+        - since many browsers don’t support the latest JS versions, JSX, etc
+    - Code needs to be compressed
+        - Separate Tools for all
+            - eg. webpack, grunt, etc
