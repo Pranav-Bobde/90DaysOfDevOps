@@ -709,3 +709,10 @@ Includes:
     - Code needs to be compressed
         - Separate Tools for all
             - eg. webpack, grunt, etc
+	
+# Day 19 - 17 August, 2022
+
+IAAS → **Infrastructure as a service**
+- instead of setting up and managing the servers and the resources we use the resources setup and managed by other providers
+- eg. AWS, GCP, etc.
+- AWS - Most widely used, powerful & complex.
