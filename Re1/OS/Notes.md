@@ -716,3 +716,14 @@ IAAS → **Infrastructure as a service**
 - instead of setting up and managing the servers and the resources we use the resources setup and managed by other providers
 - eg. AWS, GCP, etc.
 - AWS - Most widely used, powerful & complex.
+
+
+# Day 20 - 19 August, 2022
+	
+### Commands
+- netstat -lpnt
+    - lists active internet connections(servers)
+
+### NOTE
+- #→ Root User
+- $→ Standard Linux User
