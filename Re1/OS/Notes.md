@@ -727,3 +727,24 @@ IAAS → **Infrastructure as a service**
 ### NOTE
 - #→ Root User
 - $→ Standard Linux User
+	
+# Day 21 - 20 August, 2022
+	
+### Container 
+- A way to package applications with all the necessary dependenciees and configs.
+- Portable
+
+Docker Image ⇒ Actual Package ⇒ when running ⇒ Container
+
+### Docker vs Virtual Machine
+- **Docker**
+    - virtualises the applications layer
+    - uses the host’s kernel
+    - **Pros**:
+        - Smaller Size
+        - Runs Faster/Quickly
+- **Virtual Machine**
+    - virtualises application & kernel
+    - when you download an image (uses its image rather than host’s)
+    - **Pros**:
+        - Can run an OS VM on any OS
