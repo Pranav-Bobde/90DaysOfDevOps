@@ -748,3 +748,26 @@ Docker Image ⇒ Actual Package ⇒ when running ⇒ Container
     - when you download an image (uses its image rather than host’s)
     - **Pros**:
         - Can run an OS VM on any OS
+	
+
+### Birthday Holiday - August 21, 2022
+# Day 22 - 22 August, 2022
+
+### Image vs Container
+Container: A runtime environment for IMAGE
+- It has a port bound to it
+- has a virtual file system
+
+### Docker Commands
+- docker pull <IMAGE_NAME>
+- docker run <IMAGE_NAME> (attached mode)
+    - -d (for detached mode)
+    - -p<HOST_PORT>:<CONTAINER_PORT>
+- docker ps
+    - -a (to get running status)
+- docker start <IMAGE_NAME>
+- docker stop <IMAGE_NAME>
+
+#docker run === docker pull + docker run
+
+### #NOTE: you can have multiple containers with the same port but you need to attach them to different HOST PORTS to use them simultaneously.
