@@ -768,6 +768,18 @@ Container: A runtime environment for IMAGE
 - docker start <IMAGE_NAME>
 - docker stop <IMAGE_NAME>
 
-#docker run === docker pull + docker run
 
-### #NOTE: you can have multiple containers with the same port but you need to attach them to different HOST PORTS to use them simultaneously.
+### #NOTE:
+	- you can have multiple containers with the same port but you need to attach them to different HOST PORTS to use them simultaneously.
+	- docker run : deals with images; creates new container;
+	- docker start : deals with containers; starts already created container;
+	
+# Day 23 - 23 August, 2022
+### Docker Commands
+- docker images
+    - to see all your local images
+- docker exec -it <CONTAINER_ID> or <CONTAINER_NAME> /bin/bash
+- docker logs <CONTAINER_ID> or <CONTAINER_NAME>
+
+	
+
