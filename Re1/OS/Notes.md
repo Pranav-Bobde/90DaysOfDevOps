@@ -836,3 +836,17 @@ services:
 - docker-compose -f <FILE_NAME> up
 - docker-compose -f <FILE_NAME> down
 
+# Day 25 - 26 August, 2022
+
+### Commands
+- docker rm <conatiner_id>
+- docker rmi <image_id>
+- docker build -t <app_name> <dockerfile_location>
+	
+	
+### Deploying App
+- Replace [localhost](http://localhost) with service name
+- Before
+![image](https://user-images.githubusercontent.com/66965591/187005013-31a6308b-66a0-48bd-a0b7-97de806ddaa1.png)
+- After
+![image](https://user-images.githubusercontent.com/66965591/187005033-e7f12588-cb3a-4a04-acf7-3e61b88dd529.png)
