@@ -781,5 +781,58 @@ Container: A runtime environment for IMAGE
 - docker exec -it <CONTAINER_ID> or <CONTAINER_NAME> /bin/bash
 - docker logs <CONTAINER_ID> or <CONTAINER_NAME>
 
+# Rest - 24 Augues, 2022
 	
+# Day 24 - 25 August, 2022
+
+### Docker run vs Docker Compose
+
+docker run
+
+```bash
+#create and run mongodb container
+docker run -d \
+--name mongo \
+-p 27017:27017 \
+-e MONGO_INITDB_ROOT_USERNAME=admin \
+-e MONGO_INITDB_ROOT_PASSWORD=password \
+--net mongo-network \
+mongodb
+
+#create and run mongo-express container
+docker run -d \
+--name mongo-express \
+-p 8080:8080 \
+-e ME_CONFIG_MONGODB_ADMINUSERNAME=admin \
+-e ME_CONFIG_MONGODB_ADMINPASSWORD=password \
+-e ME_CONFIG_MONGODB_SERVER=mongodb \
+--net mongo-network \
+mongo-express
+```
+
+docker-compose
+```bash
+version: '3'
+services:
+	mongo:
+		image: mongo
+		ports:
+			- 27017:27017
+		environment:
+			- MONGO_INITDB_ROOT_USERNAME=admin
+			- MONGO_INITDB_ROOT_PASSWORD=password
+	mongo-express:
+		image: mongo-express
+		ports:
+			- 8080:8080
+		environment:
+			- ME_CONFIG_MONGODB_ADMINUSERNAME=admin
+			- ME_CONFIG_MONGODB_ADMINPASSWORD=password
+```
+
+### #NOTE: docker-compose creates a common network for the containers (thus no need to create & specify the network)
+
+### docker-compose commands:
+- docker-compose -f <FILE_NAME> up
+- docker-compose -f <FILE_NAME> down
 
