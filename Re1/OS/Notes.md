@@ -850,3 +850,17 @@ services:
 ![image](https://user-images.githubusercontent.com/66965591/187005013-31a6308b-66a0-48bd-a0b7-97de806ddaa1.png)
 - After
 ![image](https://user-images.githubusercontent.com/66965591/187005033-e7f12588-cb3a-4a04-acf7-3e61b88dd529.png)
+	
+(since skipped 26 in twitter will continue from 27 here too)
+# Day 27 - 27 August, 2022
+### Volumes
+3 Types
+- hostPath : pathInContainer
+- name : pathInContainer
+- pathInContainer
+
+#NOTE: Docker apps for mac , creates a linux VM & stores all the docker data inside the VM’s storage
+
+### Adding volumes in docker-compose
+![image](https://user-images.githubusercontent.com/66965591/187051431-d8634680-93a6-4105-827c-374b09b2c722.png)
+
