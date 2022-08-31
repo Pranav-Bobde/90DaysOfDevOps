@@ -864,3 +864,14 @@ services:
 ### Adding volumes in docker-compose
 ![image](https://user-images.githubusercontent.com/66965591/187051431-d8634680-93a6-4105-827c-374b09b2c722.png)
 
+# Day 30 - 31 August, 2022
+### Pod
+- smallest unit of K8s
+- Abstraction over container
+- Usually 1 application per Pod
+- Each Pod gets its own IP Address
+- are ephemeral (can die easily - replaced with new IP)
+
+### Service
+- permanent IP Address
+- lifecycle of Pod & Service are independent
